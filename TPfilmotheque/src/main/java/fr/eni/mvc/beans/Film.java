@@ -31,7 +31,7 @@ public class Film {
 		@OneToOne(cascade=CascadeType.ALL, orphanRemoval=true)
 		private Realisateur real;
 		private String duree;
-		@OneToMany(cascade=CascadeType.ALL, orphanRemoval=true, fetch=FetchType.EAGER)
+		@ManyToMany(cascade=CascadeType.ALL, orphanRemoval=true, fetch=FetchType.EAGER)
 		private List<Acteur> acteurs;
 		
 		private boolean vu;

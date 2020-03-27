@@ -12,40 +12,24 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
-	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
-	<classpathentry kind="lib" path="C:/Users/KGB&apos;s/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/4.3.2.Final/83a906c981075119885707144f357ec5f4be9b86/hibernate-core-4.3.2.Final.jar" sourcepath="C:/Users/KGB&apos;s/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/4.3.2.Final/39b708785c6af0f7b184e7a79bc1cec5a2ee46b8/hibernate-core-4.3.2.Final-sources.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/KGB&apos;s/.gradle/caches/modules-2/files-2.1/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/1.0.0.Final/5e731d961297e5a07290bfaf3db1fbc8bbbf405a/hibernate-jpa-2.1-api-1.0.0.Final.jar" sourcepath="C:/Users/KGB&apos;s/.gradle/caches/modules-2/files-2.1/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/1.0.0.Final/33fbaa7276b774ef0925f541640f6ff23fbc62dc/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/KGB&apos;s/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.8.RELEASE/4de111782a6fb315d6f39eacf22fa8168f51062b/spring-context-4.2.8.RELEASE.jar" sourcepath="C:/Users/KGB&apos;s/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.8.RELEASE/6db708462961aa798821f4b2d6265cba13f64d83/spring-context-4.2.8.RELEASE-sources.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/KGB&apos;s/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.2.8.RELEASE/4917f6ed94d7534f7f6dd67216cdff9443dd0a08/spring-beans-4.2.8.RELEASE.jar" sourcepath="C:/Users/KGB&apos;s/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.2.8.RELEASE/67911f97a27f8f43546ffdcf4fba9cf4b2125efe/spring-beans-4.2.8.RELEASE-sources.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="src" path="/TP-SpringMVC-Filmotheque"/>
-	<classpathentry kind="lib" path="C:/Users/KGB&apos;s/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.5.RELEASE/49cd2430884b77172aa81e3fc33ef668ea1dab30/spring-web-4.2.5.RELEASE.jar" sourcepath="C:/Users/KGB&apos;s/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.5.RELEASE/6d6268e82b35921d9daf4cfda9a2f1bd99afd87a/spring-web-4.2.5.RELEASE-sources.jar">
+	<classpathentry kind="src" output="bin/test" path="src/test/java">
 		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/KGB&apos;s/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.2.5.RELEASE/cf463cce3e4453eb4b9a69de2dcdfd60c3c57e0/spring-webmvc-4.2.5.RELEASE.jar" sourcepath="C:/Users/KGB&apos;s/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.2.5.RELEASE/4defda95bd56638dee17b63637f50dc8be771283/spring-webmvc-4.2.5.RELEASE-sources.jar">
+	<classpathentry kind="src" output="bin/test" path="src/test/resources">
 		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/KGB&apos;s/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/1.10.5.RELEASE/1c0c3e53a8047fecf2a8a30e9c2635609fef43ec/spring-data-jpa-1.10.5.RELEASE.jar" sourcepath="C:/Users/KGB&apos;s/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/1.10.5.RELEASE/d7f4a63174f17071c3da380f0951e596cd01c77d/spring-data-jpa-1.10.5.RELEASE-sources.jar">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11/"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>

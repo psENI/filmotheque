@@ -1,5 +1,10 @@
 package fr.eni.mvc.beans;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Acteurs")
 public class Acteur extends Personne{
 	public Acteur() {
 		super();
