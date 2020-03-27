@@ -31,10 +31,10 @@
 			<div class="navbar-collapse collapse" id="navbar-main">
 				<ul class="nav navbar-nav navbar-right">
 					<li class="active"><a href="#">Accueil</a></li>
-					<li><a href="lister">Liste des films</a></li>
-					<li><a href="ajouter">Ajouter un film</a></li>
-					<li><a href="listerStyle">Styles</a></li>
-					<li><a href="geo.jsp">Qui sommes-nous</a></li>
+					<li><a href="app/lister">Liste des films</a></li>
+					<li><a href="app/ajouter">Ajouter un film</a></li>
+					<li><a href="app/listerStyle">Styles</a></li>
+					<li><a href="app/geo.jsp">Qui sommes-nous</a></li>
 				</ul>
 			</div>
 		</div>
