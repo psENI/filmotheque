@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
+import fr.eni.mvc.beans.Film;
+import fr.eni.mvc.beans.Style;
 import fr.eni.mvc.service.GestionFilm;
 import fr.eni.mvc.service.GestionStyle;
 
@@ -29,6 +31,7 @@ public class FilmController {
 	
 	@RequestMapping(path="/lister", method=RequestMethod.GET)
 	public ModelAndView afficherFilms(){
+		System.out.println("=>here");
 		List<Film> listeF = gf.listeFilms();
 		return new ModelAndView("listeFilms", "listeF", listeF);
 	}
