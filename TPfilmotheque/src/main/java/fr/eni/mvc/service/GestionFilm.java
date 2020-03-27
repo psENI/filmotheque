@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import fr.eni.mvc.bean.Film;
+import fr.eni.mvc.beans.Film;
 import fr.eni.mvc.dao.FilmDAO;
 
 @Service
@@ -29,16 +29,6 @@ public class GestionFilm {
 		}
 		
 		public void modifierFilm(Film f){
-//			Film film = dao.findOne(f.getId());
-//			film.setActeurs(f.getActeurs());
-//			film.setAnnee(f.getAnnee());
-//			film.setDuree(f.getDuree());
-//			film.setReal(f.getReal());
-//			film.setStyle(f.getStyle());
-//			film.setSynopsis(f.getSynopsis());
-//			film.setTitre(f.getTitre());
-//			film.setVu(f.isVu());
-//			dao.save(film);
 			dao.save(f);
 		}
 		

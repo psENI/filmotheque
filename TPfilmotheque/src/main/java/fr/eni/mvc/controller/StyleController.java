@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import fr.eni.mvc.bean.Style;
+import fr.eni.mvc.beans.Style;
 import fr.eni.mvc.service.GestionStyle;
 
 @Controller

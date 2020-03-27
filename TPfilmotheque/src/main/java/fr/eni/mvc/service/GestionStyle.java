@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import fr.eni.mvc.bean.Style;
+import fr.eni.mvc.beans.Style;
 import fr.eni.mvc.dao.StyleDAO;
 
 	@Service
